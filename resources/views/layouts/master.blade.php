@@ -7,8 +7,8 @@
 
         <title>Laravel</title>
 
-        </head>
-        <body>
-
+    </head>
+    <body>
+        @yield('content')
     </body>
 </html>
