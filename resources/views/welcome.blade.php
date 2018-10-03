@@ -14,5 +14,8 @@
                 <p>{{ $i + 1 }}. Iteration</p>
             @endfor
         </div>
+        <hr>
+        <h2>XSS</h2>
+        {!! "<script>alert('Hello');</script>" !!}
     </div>
 @endsection
